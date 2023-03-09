@@ -1,0 +1,30 @@
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href={% static "favicons/favicon (1).ico" %} type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href={% static "favicons/favicon (1).ico" %}>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href={% static "styles/catalog.css" %}>
+    <meta charset="UTF-8">
+    <title>Happy pet</title>
+</head>
+<body>
+    <a href=""><img alt="Корзина" class="close" src={% static "img/корзина.png" %}></a>
+    <img alt="Logo" class="logo" src={% static "img/Logo.svg" %}>
+    <span class="title">HAPPY PET</span>
+    <a href=""><span style="position: absolute;
+        left: 126px;" class="main">Кошечки</span></a>
+    <div class="stripe1"></div>
+    <a href=""><span style="position: absolute;
+        left: 126px;" class="friends">Собачки</span></a>
+    <div class="stripe2"></div>
+    <a href=""><span style="position: absolute;
+        left: 126px;" class="About">Попугаи</span></a>
+    <div class="stripe3"></div>
+    <a href=""><span style="position: absolute;
+        left: 126px;" class="hamster">Хомячки</span></a>
+    <a href="../main-page"><img class="home" src="../static/img/home.png" alt="Home"></a>
+</body>
+</html>

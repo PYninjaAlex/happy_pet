@@ -1,0 +1,80 @@
+body {
+    position: relative;
+    max-width: 428px;
+    max-height: 926px;
+    background: #FEC90F;
+}
+
+img.Logo {
+    position: absolute;
+    width: 75px;
+    height: 80px;
+    left: 20px;
+    top: 42px;
+}
+
+img.dog {
+    position: absolute;
+    width: 201.23px;
+    height: 350px;
+    left: 242px;
+    top: 512px;
+}
+
+span.title {
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    left: 92px;
+    top: 60px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+span.text-big {
+    position: absolute;
+    width: 390px;
+    height: 203px;
+    left: 13px;
+    top: 207px;
+
+    font-family: 'Inter', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+span.text-small {
+    position: absolute;
+    width: 364px;
+    height: 81px;
+    left: 20px;
+    top: 329px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+a.button {
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    left: 20px;
+    top: 631px;
+}
+
+img.burger {
+    position: absolute;
+    width: 49.71px;
+    height: 40px;
+    left: 364px;
+    top: 52px;
+}
