@@ -1,0 +1,163 @@
+body {
+    position: relative;
+    width: 428px;
+    height: 926px;
+
+    background: #FEC90F;
+}
+
+.name {
+    position: absolute;
+    width: 193px;
+    height: 79.91px;
+    left: 21px;
+    top: 29px;
+
+    font-family: 'Inter',serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.stripe1 {
+    position: absolute;
+    width: 428px;
+    height: 1px;
+    left: 0;
+    top: 110px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+}
+
+.main {
+    position: absolute;
+    width: 400px;
+    height: 730px;
+    left: 14px;
+    top: 161px;
+
+    background: #FFF9F9;
+    border-radius: 50px;
+}
+
+#mein_cun {
+    position: absolute;
+    width: 300px;
+    height: 311.15px;
+    left: 60px;
+    top: 70px;
+}
+
+#american {
+    display: none;
+    position: absolute;
+    width: 367px;
+    height: 335px;
+    left: 30px;
+    top: 100px;
+}
+
+#napoleon {
+    display: none;
+    position: absolute;
+    width: 220.82px;
+    height: 350px;
+    left: 108px;
+    top: 100px;
+}
+
+#britain {
+    display: none;
+    position: absolute;
+    width: 396.27px;
+    height: 400px;
+    left: 16px;
+    top: 100px;
+}
+
+.span_cat {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 109px;
+    top: 390px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.stripe2 {
+    position: absolute;
+    width: 223px;
+    height: 1px;
+    left: 100px;
+    top: 445px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+}
+
+.description {
+    position: absolute;
+    width: 373px;
+    height: 79px;
+    left: 17px;
+    top: 460px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+.price {
+    position: absolute;
+    width: 149.4px;
+    height: 48px;
+    left: 145.6px;
+    top: 560px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.orders {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 103px;
+    top: 560px;
+}
+
+.left {
+    position: absolute;
+    left: 25px;
+    top: 560px;
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    left: 324px;
+    top: 560px;
+    cursor: pointer;
+}
+
+.button {
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    left: 79px;
+    top: 605px;
+}
