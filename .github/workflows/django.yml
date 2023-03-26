@@ -17,10 +17,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up env
-      run: echo "{environment_variable_name}={value}" >> $GITHUB_ENV
-    - name: Set up output
-      run: echo "{name}={value}" >> $GITHUB_OUTPUT
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
