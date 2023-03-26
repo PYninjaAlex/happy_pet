@@ -17,14 +17,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set output Python ${{ matrix.python-version }} >> $GITHUB_OUTPUT
+    - name: Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        python3 -m pip install --upgrade pip
-        pip3 install -r requirements.txt
+        python3 -m pip install --upgrade pip >> $GITHUB_OUTPUT
+        pip3 install -r requirements.txt >> $GITHUB_OUTPUT
     - name: Run Tests
       run: |
         python manage.py test
