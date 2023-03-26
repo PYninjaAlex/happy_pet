@@ -25,8 +25,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        python3 -m pip install --upgrade pip
-        pip3 install -r requirements.txt 
+       echp "python3 -m pip install --upgrade pip" >> $GITHUB_OUTPUT
+        echo "pip3 install -r requirements.txt" >> $GITHUB_OUTPUT 
     - name: Run Tests
       run: |
-        python manage.py test
+        echo "python manage.py test" >> $GITHUB_OUTPUT
