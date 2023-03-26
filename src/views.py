@@ -16,7 +16,7 @@ def main(request):
         Main page.
         :param request:
         :return:
-    """    
+    """
     return render(request, "main_page.html")
 
 
@@ -26,7 +26,7 @@ def orders(request):
         :param request:
         :return:
     """
-    return HttpResponse("<h1>NotImplemented</h1> TODO")    
+    return HttpResponse("<h1>NotImplemented</h1> TODO")
 
 
 def catalog(request):
@@ -34,7 +34,7 @@ def catalog(request):
         Catalog
         :param request:
         :return:
-    """    
+    """
     return render(request, "catalog.html")
 
 
@@ -45,6 +45,15 @@ def animals_catalog(request):
         :return:
     """
     return render(request, "animals-catalog.html")
+
+
+def about_service(request):
+    """
+        About service.
+        :param request:
+        :return:
+    """
+    return HttpResponse("<h1>NotImplemented</h1> TODO")
 
 
 def cats(request):
