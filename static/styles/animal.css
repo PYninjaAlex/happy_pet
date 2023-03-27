@@ -42,6 +42,41 @@ body {
     border-radius: 50px;
 }
 
+#corgi {
+    position: absolute;
+    width: 269px;
+    height: 302px;
+    left: 79px;
+    top: 90px;
+}
+
+#labrador_white {
+    display: none;
+    position: absolute;
+    width: 163.87px;
+    height: 302px;
+    left: 136px;
+    top: 224px;
+}
+
+#labrador {
+    display: none;
+    position: absolute;
+    width: 180.94px;
+    height: 302px;
+    left: 124px;
+    top: 218px;
+}
+
+#pug {
+    display: none;
+    position: absolute;
+    width: 284.17px;
+    height: 302px;
+    left: 80px;
+    top: 218px;
+}
+
 #mein_cun {
     position: absolute;
     width: 300px;
@@ -89,6 +124,10 @@ body {
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
+}
+
+#corg {
+    left: 150px;
 }
 
 .stripe2 {

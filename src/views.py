@@ -71,7 +71,7 @@ def dogs(request):
         :param request:
         :return:
     """
-    return HttpResponse("<h1>NotImplemented</h1> TODO")
+    return render(request, "dogs.html")
 
 
 def parrots(request):

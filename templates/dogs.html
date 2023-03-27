@@ -1,0 +1,42 @@
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href={% static "favicons/favicon (1).ico" %} type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href={% static "favicons/favicon (1).ico" %}>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href={% static "styles/animal.css" %}>
+    <meta charset="UTF-8">
+    <title>Happy pet</title>
+</head>
+<body>
+    <span class="name">Собаки</span>
+    <div class="stripe1"></div>
+    <div class="main">
+        <img src={% static "img/adult fawn pug.png" %} alt="Мопс" id="pug">
+        <img src={% static "img/golden retriever.png" %} alt="Лабрадор" id="labrador">
+        <img src={% static "img/Labrador.png" %} alt="Долматинец" id="labrador_white">
+        <img src={% static "img/corgi.png" %} alt="Корги" id="corgi">
+        <span class="span_cat" id="corg">Корги</span>
+        <div class="stripe2"></div>
+        <span class="description">
+            Милый пушистый друг любит поиграть
+        </span>
+        <span class="price">50000р</span>
+        <a href="../animals-catalog/orders" class="orders"><img src={% static "img/корзина.png" %} alt="Корзина"></a>
+        <img onclick="back();" class="left" alt="Стрелка налево" src={% static "img/Arrow%20left.png" %}>
+        <img onclick="next();" class="right" alt="Стрелка направо" src={% static "img/Arrow%20right.png" %}>
+        <a class="button" href="../animals-catalog"><img alt="Кнопка" src={% static "img/Кнопка.png" %}></a>
+    </div>
+    <script src={% static "scripts/dogs.js" %}></script>
+    <script>
+        first = 0
+
+        if (!first && cat_name.innerHTML === "Корги") {
+            document.querySelector(".left").style.display = "none"
+            first += 1
+        }
+    </script>
+</body>
+</html>
