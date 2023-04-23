@@ -62,7 +62,7 @@ def cats(request):
         :param request:
         :return:
     """
-    return render(request, "cats.html")
+    return render(request, "animals/cats.html")
 
 
 def dogs(request):
@@ -71,7 +71,7 @@ def dogs(request):
         :param request:
         :return:
     """
-    return render(request, "dogs.html")
+    return render(request, "animals/dogs.html")
 
 
 def parrots(request):
