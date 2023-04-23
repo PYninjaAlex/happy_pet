@@ -1,0 +1,97 @@
+body {
+    position: relative;
+    width: 600px;
+    height: 926px;
+    background: #FEC90F;
+}
+
+.logo {
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    left: 20px;
+    top: 25px;
+}
+
+.title {
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    left: 92px;
+    top: 40px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.stripe1 {
+    position: absolute;
+    width: 428px;
+    height: 1px;
+    left: 0;
+    top: 95px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+}
+
+.why {
+    position: absolute;
+    width: 383px;
+    height: 96px;
+    left: 20px;
+    top: 107px;
+
+    font-family: 'Inter', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.because {
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 22px;
+    top: 228px;
+
+    font-family: 'Inter', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.description {
+    position: absolute;
+    width: 400px;
+    height: 63px;
+    left: 22px;
+    top: 276px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.button {
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    left: 10px;
+    top: 700px;
+}
+
+.dog {
+    height: 362px;
+    position: absolute;
+    left: 190px;
+    top: 600px;
+}

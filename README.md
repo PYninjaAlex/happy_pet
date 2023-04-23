@@ -6,6 +6,6 @@
 
 # Preview
 
-![image](static/img/Happy%20pet.png)
+![image](static/images/Happy%20pet.png)
 
 ## Thank you!

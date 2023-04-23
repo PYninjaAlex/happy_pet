@@ -53,7 +53,7 @@ def about_service(request):
         :param request:
         :return:
     """
-    return HttpResponse("<h1>NotImplemented</h1> TODO")
+    return render(request, "about_service.html")
 
 
 def cats(request):
@@ -62,7 +62,7 @@ def cats(request):
         :param request:
         :return:
     """
-    return render(request, "animals/cats.html")
+    return render(request, "cats.html")
 
 
 def dogs(request):
@@ -71,7 +71,7 @@ def dogs(request):
         :param request:
         :return:
     """
-    return render(request, "animals/dogs.html")
+    return render(request, "dogs.html")
 
 
 def parrots(request):
