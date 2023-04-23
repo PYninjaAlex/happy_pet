@@ -4,3 +4,4 @@
 # Datasource local storage ignored files
 /__pycache__
 venv
+/happy_pet/.env
