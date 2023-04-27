@@ -2,6 +2,10 @@
 /.idea
 # Editor-based HTTP Client requests
 # Datasource local storage ignored files
-/__pycache__
+/happy_pet/__pycache__
 venv
 /happy_pet/.env
+/db.sqlite3
+/src/__pycache__
+/src/migrations
+/__pycache__
