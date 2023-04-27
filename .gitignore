@@ -1,7 +1,4 @@
-# Default ignored files
 /.idea
-# Editor-based HTTP Client requests
-# Datasource local storage ignored files
 /happy_pet/__pycache__
 venv
 /happy_pet/.env
