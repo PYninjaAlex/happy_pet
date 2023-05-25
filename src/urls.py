@@ -12,5 +12,6 @@ urlpatterns = [
     path('main-page/animals-catalog/dogs', dogs),
     path('main-page/animals-catalog/parrots', parrots),
     path('main-page/animals-catalog/hamsters', hamsters),
-    path('main-page/animals-catalog/orders', orders)
+    path('main-page/animals-catalog/orders', orders),
+    path('main-page/animals-catalog/purchase', purchase),
 ]

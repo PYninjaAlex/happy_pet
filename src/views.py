@@ -90,3 +90,12 @@ def hamsters(request):
         :return:
     """
     return HttpResponse("<h1>NotImplemented</h1> TODO")
+
+
+def purchase(request):
+    """
+        Purchase page.
+        :param request:
+        :return:
+    """
+    return render(request, "purchase.html")

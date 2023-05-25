@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    width: 428px;
+    height: 926px;
+    background: #FFC700;
+}
+
+.purchase_head {
+    position: absolute;
+    width: 190px;
+    height: 48px;
+    left: 119px;
+
+    font-family: 'Inter', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.line {
+    border: 1px solid;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 52.08%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    width: 428px;
+    height: 1px;
+    left: 0;
+    top: 82px;
+}
