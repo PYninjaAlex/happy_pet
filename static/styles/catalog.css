@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     position: relative;
     width: 600px;
     height: 926px;

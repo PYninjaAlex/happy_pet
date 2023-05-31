@@ -13,3 +13,6 @@ class Purchases(models.Model):
         ('American cat', 'Американский кот')
     ]
     status = models.CharField(max_length=20, choices=PETS)
+
+    class Meta:
+        db_table = 'mytable'
